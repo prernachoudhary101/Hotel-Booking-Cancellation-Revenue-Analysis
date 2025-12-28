@@ -1,28 +1,52 @@
-## Hotel Booking Cancellation – Revenue Leakage Analysis
+# Hotel Booking Cancellation – Revenue Leakage Analysis
 
-### Problem Statement
-Hotel cancellations lead to significant revenue loss. This project analyzes booking data to identify key drivers of cancellations and provide actionable insights to reduce revenue leakage.
+## 🔍 Problem Statement
+Hotel booking cancellations cause significant revenue loss. This project analyzes the Hotel Booking Demand Dataset to quantify cancellation drivers and estimate revenue leakage.
 
-### Tools Used
-- Excel
-- SQL (SQLite)
-- Power BI
+## 📦 Dataset
+- Source: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+- Records: ~119,390 bookings
+- Description: Contains hotel bookings with cancellation status and booking details.
 
-### Business Questions
-- What is the overall cancellation rate?
-- Which customer segments cancel the most?
-- How does lead time affect cancellations?
-- Which seasons contribute most to revenue loss?
+## 🛠 Tools Used
+- **SQL (MySQL)** – for data queries
+- **Power BI** – dashboard visualization
+- **Excel** – data exploration
 
-### Key Insights
-- Bookings with long lead times show higher cancellation probability
-- Certain hotel types and customer segments contribute disproportionately to cancellations
-- Seasonal spikes in cancellations impact revenue stability
+## 📁 Folder Structure
+📁 data
+┣ dataset_source.txt
+📁 sql
+┣ sql_analysis_queries.sql
+📁 powerbi
+┣ dashboard_screenshot_1.png
+┣ dashboard_screenshot_2.png
+README.md
 
-### Business Recommendations
-- Introduce partial prepayment for long lead-time bookings
-- Reduce free cancellation windows during peak seasons
-- Target high-risk customer segments with stricter policies
+## 📈 Key Insights
+- Overall cancellation rate: **37%**
+- Long lead-time bookings are more likely to cancel
+- Certain customer types show higher cancellations
+- Estimated revenue loss due to cancellations: **$16.7M**
 
-### Dataset Source
-- Kaggle: Hotel Booking Demand Dataset
+## 🧠 Business Recommendations
+- Partial prepayment for long lead-time bookings
+- Tighter free cancellation windows during peak season
+- Target marketing campaigns for high-risk segments
+
+## 📊 Screenshots
+### Dashboard overview
+![Dashboard overview](powerbi/dashboard_screenshot_1.png)
+
+### Trend & Customer Segmentation
+![Trend & Customer Segmentation](powerbi/dashboard_screenshot_2.png)
+
+## 📌 How to Reproduce
+1. Download dataset from Kaggle
+2. Load into MySQL or Power BI
+3. Run SQL queries from `sql_analysis_queries.sql`
+4. Load dataset into Power BI and recreate visuals
+
+## 🗂 SQL Queries
+All SQL analysis queries are in `sql/sql_analysis_queries.sql`
+

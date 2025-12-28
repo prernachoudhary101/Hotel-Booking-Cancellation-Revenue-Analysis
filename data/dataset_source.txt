@@ -1,1 +1,5 @@
+Hotel Booking Demand Dataset
+Source: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+Downloaded on: 26 december 2025
+Notes: CSV filed with ~119K bookings
 

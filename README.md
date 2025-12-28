@@ -39,7 +39,7 @@ README.md
 ![Executive overview](powerbi/PowwrBI-dashboard_screenshot1.png)
 
 ### Trend & Customer Segmentation Analysis
-![Trend & Customer Segmentation Analysis](powerbi/dashboard_screenshot_2.png)
+![Trend & Customer Segmentation Analysis](powerbi/PowerBI-dashboard_Screenshot 2.png)
 
 ## Use Case
 This analysis can help hotel revenue managers identify high-risk bookings and design targeted cancellation policies to minimize revenue loss.

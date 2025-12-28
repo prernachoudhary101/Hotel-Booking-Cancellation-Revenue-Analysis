@@ -36,7 +36,7 @@ README.md
 
 ##  Screenshots
 ### Executive overview
-![Executive overview](powerbi/dashboard_screenshot_1.png)
+![Executive overview](powerbi/PowwrBI-dashboard_screenshot1.png)
 
 ### Trend & Customer Segmentation Analysis
 ![Trend & Customer Segmentation Analysis](powerbi/dashboard_screenshot_2.png)

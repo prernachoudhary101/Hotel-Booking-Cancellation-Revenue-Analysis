@@ -35,11 +35,11 @@ README.md
 - Target marketing campaigns for high-risk segments
 
 ##  Screenshots
-### Dashboard overview
-![Dashboard overview](powerbi/dashboard_screenshot_1.png)
+### Executive overview
+![Executive overview](powerbi/dashboard_screenshot_1.png)
 
-### Trend & Customer Segmentation
-![Trend & Customer Segmentation](powerbi/dashboard_screenshot_2.png)
+### Trend & Customer Segmentation Analysis
+![Trend & Customer Segmentation Analysis](powerbi/dashboard_screenshot_2.png)
 
 ## Use Case
 This analysis can help hotel revenue managers identify high-risk bookings and design targeted cancellation policies to minimize revenue loss.

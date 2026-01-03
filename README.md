@@ -42,6 +42,6 @@ README.md
 ## Use Case
 This analysis can help hotel revenue managers identify high-risk bookings and design targeted cancellation policies to minimize revenue loss.
 
-## 🗂 SQL Queries
+##  SQL Queries
 All SQL analysis queries are in `sql/sql_analysis_queries.sql`
 
